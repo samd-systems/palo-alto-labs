@@ -1,8 +1,8 @@
-[Image: topology.png]
+![Topology](topology.png)
 
-[Image: validation-1.png]
+![Validation](validation-1.png)
 
-[Image: validation-2.png]
+![Validation](validation-2.png)
 
 # Lab – OSPF Configuration and Management
 
