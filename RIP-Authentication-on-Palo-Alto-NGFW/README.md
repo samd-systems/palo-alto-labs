@@ -7,7 +7,7 @@
 # RIP Authentication on Palo Alto NGFW
 
 ## Overview
-This lab validates the use of authentication in the RIP dynamic routing protocol to protect routing updates exchanged between a Palo Alto Networks firewall and Cisco routers. The focus is on preventing unauthorized route injection and confirming that only authenticated RIP updates are accepted within a shared routing domain.
+This lab demonstrates the use of authentication in the RIP dynamic routing protocol to protect routing updates exchanged between a Palo Alto Networks firewall and Cisco routers. The focus is on preventing unauthorized route injection and confirming that only authenticated RIP updates are accepted within a shared routing domain.
 
 This lab is documented as a validated engineering case note rather than a step-by-step configuration walkthrough.
 
