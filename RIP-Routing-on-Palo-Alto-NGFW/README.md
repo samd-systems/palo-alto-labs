@@ -7,7 +7,7 @@
 # RIP Routing on Palo Alto NGFW
 
 ## Overview
-This lab documents the configuration and validation of the RIP dynamic routing protocol between a Palo Alto Networks next-generation firewall and Cisco routers in a shared routing environment. The focus is on dynamic route exchange, protocol behavior, and validation of RIP-learned routes within a firewall-centric topology.
+This lab documents the configuration of the RIP dynamic routing protocol between a Palo Alto Networks next-generation firewall and Cisco routers in a shared routing environment. The focus is on dynamic route exchange, protocol behavior, and validation of RIP-learned routes within a firewall-centric topology.
 
 This lab is documented as a validated engineering case note rather than a step-by-step configuration walkthrough.
 
