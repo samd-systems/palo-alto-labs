@@ -4,61 +4,47 @@
 
 ![Validation](validation-2.png)
 
-# RIP Authentication on Palo Alto NGFW
+# Lab – RIP Authentication on Palo Alto NGFW
 
 ## Overview
-This lab demonstrates the use of authentication in the RIP dynamic routing protocol to protect routing updates exchanged between a Palo Alto Networks firewall and Cisco routers. The focus is on preventing unauthorized route injection and confirming that only authenticated RIP updates are accepted within a shared routing domain.
+This lab demonstrates the security risk of unauthenticated RIP updates on a shared broadcast network and confirms how RIP authentication protects routing updates exchanged between a Palo Alto Networks firewall and Cisco routers. The focus is on observable routing behavior before and after authentication enforcement.
 
-This lab is documented as a validated engineering case note rather than a step-by-step configuration walkthrough.
-
----
+This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
-- Enable RIP authentication between a Palo Alto firewall and Cisco routers
-- Establish secure RIP adjacencies using authenticated updates
-- Validate routing behavior with authentication enabled
-- Observe protocol behavior when unauthenticated updates are present
-
----
+- Validate that unauthenticated RIP updates are accepted by any participant on a shared routing segment
+- Confirm that authenticated RIP updates are accepted only by trusted peers
+- Verify that unauthorized routing updates are rejected after authentication enforcement
 
 ## Topology Summary
-The topology consists of Cisco routers and a Palo Alto Networks firewall exchanging RIP updates on a shared broadcast network. An additional device on the same segment is used to demonstrate the risk of unauthenticated routing updates and to validate enforcement of RIP authentication.
-
----
+The topology consists of Cisco routers and a Palo Alto Networks firewall exchanging RIP updates on a shared Layer-2 broadcast network. An additional unauthorized device is present on the same segment to validate routing behavior before and after authentication enforcement.
 
 ## Configuration Summary
-- RIP authentication enabled on the Palo Alto firewall
-- Matching authentication configured on Cisco routers
-- RIP updates restricted to authenticated peers
-- Loopback networks advertised to validate authenticated route exchange
-
-*(Detailed configuration steps are intentionally omitted to emphasize protocol behavior and validation outcomes.)*
-
----
+- RIP enabled on participating routing devices
+- Authentication applied to RIP exchanges between trusted peers
+- Routing advertisements scoped to authenticated neighbors
+(Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
-- RIP updates without authentication were observable on the network prior to enforcement
-- After enabling authentication, RIP updates included authentication information
-- Only authenticated RIP responses were accepted by participating devices
-- Unauthorized or unauthenticated routing updates were effectively rejected
 
----
+### Behavior Without the Control
+- RIP updates observed in clear text on the broadcast segment
+- Unauthorized device successfully received and installed RIP-learned routes
+
+### Behavior With the Control
+- RIP updates observed containing authentication information
+- Unauthorized device continued to receive RIP packets but failed to install routes
+- Trusted peers maintained stable routing adjacencies
 
 ## Key Takeaways
-- Dynamic routing protocols require authentication to prevent route injection
-- Palo Alto firewalls support authenticated RIP exchanges in multi-vendor environments
-- Packet-level inspection is an effective method for validating routing security controls
-- Security validation should confirm both acceptance of valid updates and rejection of invalid ones
-
----
+- Unauthenticated RIP presents a clear control-plane security risk
+- RIP authentication effectively restricts routing updates to trusted peers
+- Packet-level validation provides authoritative confirmation of routing behavior
 
 ## Lab Environment
 - Palo Alto Networks NGFW (VM-Series)
 - Cisco IOS routers
 - EVE-NG virtual lab platform
-- Wireshark (packet capture and protocol analysis)
 
----
-
-### ✅ Status
+## Status
 Validated and complete.
