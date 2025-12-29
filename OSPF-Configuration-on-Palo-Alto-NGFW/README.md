@@ -25,6 +25,7 @@ The lab consists of multiple Cisco routers and a Palo Alto NGFW participating in
 - Palo Alto virtual router configured for Area 0
 - Loopback interfaces advertised as host routes
 - Single-area broadcast topology
+
 (Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
