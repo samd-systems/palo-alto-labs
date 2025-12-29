@@ -23,6 +23,7 @@ The topology consists of Cisco routers and a Palo Alto Networks firewall exchang
 - RIP enabled on participating routing devices
 - Authentication applied to RIP exchanges between trusted peers
 - Routing advertisements scoped to authenticated neighbors
+
 (Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
