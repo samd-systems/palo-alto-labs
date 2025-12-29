@@ -7,7 +7,7 @@
 # Lab – OSPF Configuration and Management
 
 ## Overview
-This lab validates OSPF Area 0 control-plane behavior between a Palo Alto Networks NGFW and Cisco routing peers. Validation focuses on adjacency formation, route propagation, and next-hop resolution rather than configuration mechanics. 
+This lab demonstrates OSPF Area 0 control-plane behavior between a Palo Alto Networks NGFW and Cisco routing peers. The focus is on adjacency formation, route propagation, and next-hop resolution rather than configuration mechanics.
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
