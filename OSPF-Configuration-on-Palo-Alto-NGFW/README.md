@@ -18,7 +18,7 @@ This lab is documented as a validated engineering case note rather than a config
 - Observe control-plane stability under normal operation
 
 ## Topology Summary
-The lab consists of multiple Cisco routers and a Palo Alto NGFW participating in OSPF Area 0 over a shared Layer 2 segment within a trusted routing domain. All routing information is exchanged dynamically without static routes.
+The topology consists of multiple Cisco routers and a Palo Alto NGFW participating in OSPF Area 0 over a shared Layer 2 segment within a trusted routing domain. All routing information is exchanged dynamically without static routes.
 
 ## Configuration Summary
 - OSPF enabled on participating interfaces
