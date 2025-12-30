@@ -11,7 +11,7 @@
 # Lab – BGP Routing on Palo Alto NGFW (Dual eBGP ISP Peers)
 
 ## Overview
-This lab validates BGP control-plane behavior and routing outcomes on a Palo Alto Networks NGFW peering with dual upstream ISP routers. The focus is on deterministic path selection, failover behavior, and recovery based on BGP attributes and observed routing state.
+This lab demonstrates BGP control-plane behavior and routing outcomes on a Palo Alto Networks NGFW peering with dual upstream ISP routers. The focus is on deterministic path selection, failover behavior, and recovery based on BGP attributes and observed routing state.
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
