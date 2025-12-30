@@ -7,7 +7,9 @@
 # Lab – Default Routing, Route Redistribution, and Inter-Zone Policy Enforcement
 
 ## Overview
-This lab demonstrates how a Palo Alto Networks NGFW handles default routing and route redistribution while enforcing explicit inter-zone security policy between trusted and untrusted network segments. The focus is on observable routing state and policy-governed traffic behavior across zone boundaries. This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+This lab demonstrates how a Palo Alto Networks NGFW handles default routing and route redistribution while enforcing explicit inter-zone security policy between trusted and untrusted network segments. The focus is on observable routing state and policy-governed traffic behavior across zone boundaries. 
+
+This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Confirm installation and use of a default route on the NGFW
@@ -22,7 +24,8 @@ The topology consists of multiple Cisco routers participating in OSPF within an 
 - Virtual router configuration supporting OSPF and static default routing
 - Route redistribution between OSPF-learned networks and the default route
 - Zone-based interface assignment for Inside and Outside segments
-- Explicit inter-zone security policy permitting controlled traffic flow  
+- Explicit inter-zone security policy permitting controlled traffic flow
+
 (Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
