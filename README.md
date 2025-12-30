@@ -13,3 +13,4 @@ The emphasis is on non-trivial configurations, observable behavior, and validati
 - [Lab – RIP Routing on Palo Alto NGFW](RIP-Routing-on-Palo-Alto-NGFW/)
 - [Lab – RIP Authentication on Palo Alto NGFW](RIP-Authentication-on-Palo-Alto-NGFW/)
 - [Lab – OSPF-Configuration-on-Palo-Alto-NGFW](OSPF-Configuration-on-Palo-Alto-NGFW/)
+- [Lab – BGP-Routing-on-Palo-Alto-NGFW](BGP-Routing-on-Palo-Alto-NGFW/)
