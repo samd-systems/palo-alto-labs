@@ -15,6 +15,4 @@ The emphasis is on non-trivial configurations, observable behavior, and validati
 - [Lab – OSPF-Configuration-on-Palo-Alto-NGFW](OSPF-Configuration-on-Palo-Alto-NGFW/)
 - [Lab – BGP-Routing-on-Palo-Alto-NGFW](BGP-Routing-on-Palo-Alto-NGFW/)
 - [Lab – Default-Routing-Route-Redistribution-and-Inter-Zone-Policy-on-Palo-Alto-NGFW](Default-Routing-Route-Redistribution-and-Inter-Zone-Policy-on-Palo-Alto-NGFW/)
-
-
-
+- [Lab – AppID-YouTube-Only-Access-on-Palo-Alto-NGFW](AppID-YouTube-Only-Access-on-Palo-Alto-NGFW/)
