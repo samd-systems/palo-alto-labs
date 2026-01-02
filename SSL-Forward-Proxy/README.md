@@ -7,7 +7,7 @@
 # Lab – SSL Forward Proxy Decryption and Certificate Substitution
 
 ## Overview
-This lab demonstrates SSL forward proxy behavior by observing certificate issuance changes during outbound HTTPS sessions. Baseline passthrough traffic and intercepted traffic are compared using direct client-side inspection. 
+This lab demonstrates SSL forward proxy behavior by observing certificate issuance changes during outbound HTTPS sessions. SSL forward proxy decryption was intentionally configured on the firewall to enable controlled interception of outbound encrypted traffic for validation purposes. Baseline passthrough traffic and intercepted traffic are compared using direct client-side inspection.
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
