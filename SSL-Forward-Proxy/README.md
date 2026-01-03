@@ -7,7 +7,7 @@
 # Lab – SSL Forward Proxy Decryption
 
 ## Overview
-This lab demonstrates the operational boundary at which a Palo Alto Networks NGFW transitions from forwarding encrypted traffic to actively controlling it by assuming certificate authority responsibility. SSL forward proxy decryption was intentionally configured to enable inspection of outbound HTTPS traffic and enforcement of security policy beyond basic allow or block decisions.
+This lab demonstrates the operational boundary at which a Palo Alto Networks NGFW transitions from forwarding encrypted traffic to actively controlling it by assuming certificate authority responsibility. SSL forward proxy decryption was intentionally configured to enable inspection of HTTPS traffic and enforcement of security policy beyond basic allow or block decisions.
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
@@ -24,12 +24,13 @@ The topology consists of an internal client traversing a Palo Alto Networks NGFW
 - SSL forward proxy decryption enabled
 - Firewall-generated certificate authority configured
 - Decryption policy applied to outbound HTTPS traffic
+
 (Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
 
 ### Behavior Without the Control
-Before SSL forward proxy was enabled, HTTPS traffic traversed the firewall without decryption. The client observed certificates issued by public certificate authorities, confirming encrypted traffic was forwarded without inspection.
+Before SSL forward proxy was enabled, HTTPS traffic traversed the firewall without decryption. The client observed certificates issued by public certificate authorities, confirming that encrypted traffic was forwarded without inspection or certificate substitution.
 
 ### Behavior With the Control
 After SSL forward proxy decryption was enabled, the firewall assumed certificate authority responsibility and substituted origin server certificates with firewall-issued certificates. This change was directly observable at the client, establishing certificate trust as the gating factor for encrypted traffic inspection.
@@ -37,7 +38,7 @@ After SSL forward proxy decryption was enabled, the firewall assumed certificate
 ## Key Takeaways
 - SSL forward proxy introduces an explicit control boundary for encrypted traffic
 - Certificate authority ownership, not network reachability, determines inspection capability
-- Client trust is required to enforce security policy on HTTPS traffic
+- Client trust is a required dependency for enforcing security policy on HTTPS traffic
 
 ## Lab Environment
 - Palo Alto Networks NGFW (VM-Series)
