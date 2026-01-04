@@ -7,37 +7,44 @@
 # Lab – RIP Routing on Palo Alto NGFW
 
 ## Overview
-This lab demonstrates the configuration of the RIP dynamic routing protocol between a Palo Alto Networks next-generation firewall and Cisco routers in a shared routing environment. The focus is on dynamic route exchange, protocol behavior, and validation of RIP-learned routes within a firewall-centric topology.
+This lab demonstrates RIP control-plane behavior between a Palo Alto Networks next-generation firewall and Cisco routing peers in a shared routing environment. The focus is on dynamic route exchange, adjacency formation, and next-hop resolution as observed on the firewall.
 
-This lab is documented as a validated engineering case note rather than a step-by-step configuration walkthrough.
+This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
-- Enable RIP on a Palo Alto firewall and Cisco routers
-- Advertise connected and loopback networks dynamically
-- Define active and passive RIP interfaces
-- Validate RIP-learned routes on the firewall
+- Demonstrate successful RIP adjacency formation between the firewall and routing peers
+- Confirm dynamic installation of RIP-learned routes on the firewall
+- Demonstrate correct next-hop resolution for dynamically learned prefixes
+- Observe stable routing behavior across the routing domain
 
 ## Topology Summary
-The topology consists of Cisco routers exchanging RIP updates with a Palo Alto Networks firewall on a shared network segment. Loopback interfaces are advertised to validate dynamic route propagation and correct next-hop resolution.
+The topology consists of Cisco routers and a Palo Alto Networks firewall exchanging RIP updates on a shared Layer-2 network segment. Loopback networks are advertised to demonstrate dynamic route propagation and next-hop selection.
 
 ## Configuration Summary
-- RIP enabled on the Palo Alto firewall virtual router
-- RIP enabled on Cisco routers
-- Loopback interfaces advertised dynamically
-- Active and passive RIP interfaces configured on the firewall
+- RIP enabled on participating routing devices
+- Loopback networks advertised dynamically
+- Active and passive RIP interfaces defined
 
 (Configuration details intentionally omitted; focus is on behavior and validation.)
 
 ## Validation and Results
-- RIP adjacencies formed successfully between all devices
-- RIP-learned routes were installed in the Palo Alto firewall routing table
-- Correct next-hop resolution observed for dynamically learned routes
-- Stable routing behavior verified across the environment
+
+### Proof of Operational State
+- RIP adjacencies formed successfully between all participating devices
+- Periodic RIP updates exchanged across the shared routing segment
+
+### Route Installation and Resolution
+- RIP-learned routes installed in the Palo Alto firewall routing table
+- Correct next-hop resolution observed for all dynamically learned routes
+
+### Stability
+- Routing state remained stable throughout validation
+- No unexpected adjacency flaps or route withdrawals observed
 
 ## Key Takeaways
-- Palo Alto firewalls can participate in legacy dynamic routing protocols
-- Dynamic routing validation should focus on routing behavior rather than configuration presence
-- Even simple routing protocols require careful interface scoping and control
+- Palo Alto firewalls can participate reliably in legacy dynamic routing protocols
+- Control-plane validation provides stronger assurance than configuration presence
+- Observable routing outcomes confirm correct dynamic routing behavior
 
 ## Lab Environment
 - Palo Alto Networks NGFW (VM-Series)
