@@ -19,3 +19,4 @@ The emphasis is on non-trivial configurations, observable behavior, and validati
 - [Lab - SSL-Forward-Proxy-on-Palo-Alto-NGFW](SSL-Forward-Proxy-on-Palo-Alto-NGFW/)
 - [Lab - Threat-Prevention-Enforcement-on-Palo-Alto-NGFW](Threat-Prevention-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab - Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW](Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW/)
+- [Lab - Zone-and-DoS-Protection-on-Palo-Alto-NGFW](Zone-and-DoS-Protection-on-Palo-Alto-NGFW/)
