@@ -9,7 +9,7 @@
 # Lab – Inter-VLAN Segmentation on Palo Alto NGFW
 
 ## Overview
-This lab demonstrates inter-VLAN routing through a Palo Alto NGFW using subinterfaces and security policy enforcement to control segmented network reachability.
+This lab demonstrates inter-VLAN routing through a Palo Alto NGFW using subinterfaces and security policy enforcement to control network reachability.
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
