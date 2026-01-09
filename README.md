@@ -20,3 +20,8 @@ The emphasis is on non-trivial configurations, observable behavior, and validati
 - [Lab - Threat-Prevention-Enforcement-on-Palo-Alto-NGFW](Threat-Prevention-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab - Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW](Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab - Zone-and-DoS-Protection-on-Palo-Alto-NGFW](Zone-and-DoS-Protection-on-Palo-Alto-NGFW/)
+- [Lab - Inter-VLAN-Segmentation-on-Palo-Alto-NGFW](Inter-VLAN-Segmentation-on-Palo-Alto-NGFW/)
+
+
+
+
