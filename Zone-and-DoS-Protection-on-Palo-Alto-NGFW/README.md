@@ -6,7 +6,7 @@
 
 ![Context](context-1.png)
 
-# Lab – Zone and DoS Protection
+# Lab – Zone and DoS Protection on Palo Alto NGFW
 
 ## Overview
 This lab demonstrates how Palo Alto NGFW Zone and DoS Protection handle sustained traffic load at exposed trust boundaries. ICMP flood traffic is used as an observable condition to assess enforcement behavior using the firewall's packet capture. 
