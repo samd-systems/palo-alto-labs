@@ -57,3 +57,4 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – Vulnerability Protection Enforcement on Palo Alto NGFW](Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – Zone and DoS Protection on Palo Alto NGFW](Zone-and-DoS-Protection-on-Palo-Alto-NGFW/)
 - [Lab – Inter-VLAN Segmentation on Palo Alto NGFW](Inter-VLAN-Segmentation-on-Palo-Alto-NGFW/)
+- [Lab – Captive Portal User-ID Enforcement on Palo Alto NGFW](Captive-Portal-User-ID-Enforcement-on-Palo-Alto-NGFW/)
