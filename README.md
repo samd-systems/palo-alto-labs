@@ -14,31 +14,35 @@ The labs in this repository collectively demonstrate the following core network 
 
 ### Routing & Control Plane Behavior
 - Dynamic routing protocols (RIP, OSPF, BGP)
-- Route propagation, authentication, and stability
+- Control-plane adjacency formation and route propagation
+- Route authentication and routing stability
 - Default routing and route redistribution
-- Deterministic path selection and failover behavior
+- Deterministic path selection and traffic steering behavior
 
 ### Network Segmentation & Zone Design
-- Inter-zone traffic flows
-- Inter-VLAN segmentation
-- Trust boundary definition and enforcement
-- Zone-based security posture
+- Zone-based security architecture and trust boundary definition
+- Inter-zone traffic flow validation
+- Inter-VLAN segmentation and isolation
+- Segmentation enforcement independent of routing state
 
 ### Access Control & Policy Enforcement
-- Explicit inter-zone security policy
-- Least-privilege access design
-- Policy-driven traffic enforcement independent of routing
+- Explicit inter-zone security policy enforcement
+- Least-privilege access design across security zones
+- Policy-driven traffic enforcement independent of routing decisions
+- Observed policy match behavior prior to and after NAT translation
 
 ### Application Awareness & Visibility
 - Application identification using App-ID
-- Application-based access control
+- Dynamic application classification and reclassification
+- Application-based access control enforcement
 - Enforcement based on observed application behavior rather than ports
 
-### Threat Prevention & Inline Inspection
-- SSL Forward Proxy inspection
+### Traffic Translation, Inspection & Threat Prevention
+- Source and destination NAT behavior and order of operations
+- SSL Forward Proxy inspection and decrypted traffic enforcement
 - Threat Prevention enforcement on permitted traffic
-- Vulnerability Protection applied inline
-- DoS and Zone Protection mechanisms
+- Vulnerability Protection applied inline without policy modification
+- Zone Protection and DoS mitigation mechanisms
 
 ---
 
