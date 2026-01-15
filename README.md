@@ -17,11 +17,11 @@ The labs in this repository collectively demonstrate the following core network 
 - Control-plane adjacency formation and route propagation
 - Route authentication and routing stability
 - Default routing and route redistribution
-- Deterministic path selection and traffic steering behavior
+- Policy-based traffic steering and deterministic path selection
 
 ### Network Segmentation & Zone Design
 - Zone-based security architecture and trust boundary definition
-- Inter-zone traffic flow validation
+- Inter-zone traffic flow design
 - Inter-VLAN segmentation and isolation
 - Segmentation enforcement independent of routing state
 
@@ -29,19 +29,19 @@ The labs in this repository collectively demonstrate the following core network 
 - Explicit inter-zone security policy enforcement
 - Least-privilege access design across security zones
 - Policy-driven traffic enforcement independent of routing decisions
-- Observed policy match behavior prior to and after NAT translation
+- Policy evaluation relative to NAT translation
 
 ### Application Awareness & Visibility
 - Application identification using App-ID
 - Dynamic application classification and reclassification
 - Application-based access control enforcement
-- Enforcement based on observed application behavior rather than ports
+- Enforcement based on application behavior rather than ports
 
-### Traffic Translation, Inspection & Threat Prevention
+### Traffic Translation & Threat Prevention
 - Source and destination NAT behavior and order of operations
 - SSL Forward Proxy inspection and decrypted traffic enforcement
 - Threat Prevention enforcement on permitted traffic
-- Vulnerability Protection applied inline without policy modification
+- Inline Vulnerability Protection enforcement
 - Zone Protection and DoS mitigation mechanisms
 
 ---
