@@ -7,7 +7,7 @@
 # Lab – Application-Based Internet Access Enforcement on Palo Alto NGFW
 
 ## Overview
-This lab demonstrates the risk of unrestricted outbound Internet access and validates YouTube-only outbound access using Palo Alto NGFW App-ID with URL filtering to ensure accurate enforcement.
+This lab validates application-based outbound Internet access by restricting a specific internal host to explicitly permitted application using Palo Alto NGFW App-ID with URL filtering.
 
 While YouTube is used here as a representative application, the same enforcement model applies to any approved SaaS or web application.
 
