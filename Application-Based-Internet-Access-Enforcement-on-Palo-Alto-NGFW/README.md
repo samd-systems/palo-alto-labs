@@ -37,7 +37,7 @@ The topology consists of two internal hosts connected via a Layer 2 switch to a 
 Prior to application enforcement, the internal host generated multiple concurrent outbound sessions across different applications, including SSL and DNS. Traffic logs confirm unrestricted Internet access with successful NAT translation.
 
 ### Behavior With the Control
-After enforcement, the only permitted outbound sessions observed from the host were classified as YouTube (youtube-base) by App-ID. Firewall traffic logs confirm application identification and policy-based allowance of YouTube sessions.
+After enforcement, outbound traffic permitted from the host was identified as YouTube (youtube-base) by App-ID, with firewall traffic logs confirming application-aware policy enforcement and intended access constraints.
 
 ## Key Takeaways
 - Application-aware controls provide precision beyond port-based filtering
