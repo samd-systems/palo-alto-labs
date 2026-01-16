@@ -4,6 +4,8 @@
 
 ![Validation](validation-2.png)
 
+![Validation](validation-3.png)
+
 ![Context](context-1.png)
 
 # Lab – Inter-VLAN Segmentation on Palo Alto NGFW
