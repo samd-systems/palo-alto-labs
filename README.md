@@ -29,13 +29,25 @@ The labs in this repository collectively demonstrate the following core network 
 - Explicit inter-zone security policy enforcement
 - Least-privilege access design across security zones
 - Policy-driven traffic enforcement independent of routing decisions
-- Policy evaluation relative to NAT translation
+- Security policy evaluation relative to NAT translation
 
 ### Application Awareness & Visibility
 - Application identification using App-ID
 - Dynamic application classification and reclassification
 - Application-based access control enforcement
 - Enforcement based on application behavior rather than ports
+
+### Identity-Based Access Control
+- User-to-IP mapping using User-ID
+- Captive Portal–based user identification
+- Identity-aware policy enforcement across security zones
+- Integration of user context into access control decisions
+
+### Secure Connectivity & VPN
+- Site-to-site IPsec VPN design and tunnel-based routing
+- Secure inter-site communication over untrusted networks
+- Remote access VPN using GlobalProtect
+- Zone-based policy enforcement for VPN users
 
 ### Traffic Translation & Threat Prevention
 - Source and destination NAT behavior and order of operations
@@ -62,6 +74,7 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – Zone and DoS Protection on Palo Alto NGFW](Zone-and-DoS-Protection-on-Palo-Alto-NGFW/)
 - [Lab – Inter-VLAN Segmentation on Palo Alto NGFW](Inter-VLAN-Segmentation-on-Palo-Alto-NGFW/)
 - [Lab – Captive Portal User-ID Enforcement on Palo Alto NGFW](Captive-Portal-User-ID-Enforcement-on-Palo-Alto-NGFW/)
-- [Lab – Policy Based Forwarding Path Override on Palo Alto NGFW](Policy-Based-Forwarding-Path-Override-on-Palo-Alto-NGFW/)
+- [Lab – Policy-Based Forwarding Path Override on Palo Alto NGFW](Policy-Based-Forwarding-Path-Override-on-Palo-Alto-NGFW/)
 - [Lab – Destination NAT with Pre-NAT Security Policy Matching on Palo Alto NGFW](Destination-NAT-with-Pre-NAT-Security-Policy-Matching-on-Palo-Alto-NGFW/)
 - [Lab – Site-to-Site IPsec VPN on Palo Alto NGFW](Site-to-Site-IPsec-VPN-on-Palo-Alto-NGFW/)
+- [Lab – GlobalProtect Remote Access with Zone-Based Policy Enforcement on Palo Alto NGFW](GlobalProtect-Remote-Access-with-Zone-Based-Policy-Enforcement-on-Palo-Alto-NGFW/)
