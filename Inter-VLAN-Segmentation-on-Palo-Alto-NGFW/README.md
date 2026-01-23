@@ -13,7 +13,7 @@
 ## Overview
 This lab demonstrates inter-VLAN routing through a Palo Alto NGFW using subinterfaces and security policy enforcement to control network reachability.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Establish routed connectivity between multiple VLANs through a centralized firewall
