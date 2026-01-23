@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates how a Palo Alto Networks NGFW handles default routing and route redistribution while enforcing explicit inter-zone security policy across defined trust boundaries. The focus is on observable routing state and policy-governed traffic behavior rather than configuration mechanics. 
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Confirm installation and use of a default route on the NGFW
