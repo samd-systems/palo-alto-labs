@@ -8,7 +8,7 @@
 
 This lab demonstrates the use of Policy-Based Forwarding on a Palo Alto NGFW to override default routing behavior and force selected traffic onto a specific upstream path.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Confirm normal reachability using default routing behavior
