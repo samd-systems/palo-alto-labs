@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates the operational boundary at which a Palo Alto Networks NGFW transitions from forwarding encrypted traffic to actively controlling it by assuming certificate authority responsibility. SSL forward proxy decryption was intentionally configured to enable inspection of HTTPS traffic and enforcement of security policy beyond basic allow or block decisions.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Confirm baseline HTTPS passthrough behavior when encrypted traffic is not inspected
