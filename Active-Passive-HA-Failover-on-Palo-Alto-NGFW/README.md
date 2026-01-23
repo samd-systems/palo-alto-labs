@@ -10,7 +10,7 @@
 
 This lab demonstrates active/passive High Availability behavior on Palo Alto NGFW when a monitored interface failure triggers a role transition and traffic enforcement continues on the newly active firewall.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Validate HA role transition during a monitored interface failure
