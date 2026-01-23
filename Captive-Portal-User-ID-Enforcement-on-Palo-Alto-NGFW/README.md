@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates identity-aware outbound access enforcement using Palo Alto NGFW Captive Portal and local user authentication.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Validate Captive Portal redirection for unauthenticated outbound traffic
