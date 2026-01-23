@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates OSPF Area 0 control-plane behavior between a Palo Alto Networks NGFW and Cisco routing peers. The focus is on adjacency formation, route propagation, and next-hop resolution.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Validate stable OSPF neighbor adjacencies
