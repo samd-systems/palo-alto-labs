@@ -9,7 +9,7 @@
 ## Overview
 This lab examines how a Palo Alto Networks next-generation firewall enforces Threat Prevention controls by inspecting and blocking malicious content within otherwise permitted outbound traffic. The focus is on observable enforcement behavior at the security policy layer during live traffic flow.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Confirm that Threat Prevention inspection is applied to permitted outbound traffic
