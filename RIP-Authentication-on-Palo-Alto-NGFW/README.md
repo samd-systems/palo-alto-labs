@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates the security risk of unauthenticated RIP updates on a shared broadcast network and confirms how RIP authentication protects routing updates exchanged between a Palo Alto Networks firewall and Cisco routers. The focus is on observable routing behavior before and after authentication enforcement.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Validate that unauthenticated RIP updates are accepted by any participant on a shared routing segment
