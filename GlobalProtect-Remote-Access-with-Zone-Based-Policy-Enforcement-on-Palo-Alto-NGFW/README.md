@@ -10,7 +10,7 @@
 
 This lab demonstrates a GlobalProtect remote user authenticating, establishing an encrypted tunnel, and sending traffic into a dedicated VPN security zone where access to internal networks is enforced by inter-zone security policy.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Establish a secure GlobalProtect remote access tunnel
