@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates RIP control-plane behavior between a Palo Alto Networks next-generation firewall and Cisco routing peers in a shared routing environment. The focus is on dynamic route exchange, adjacency formation, and next-hop resolution as observed on the firewall.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Demonstrate successful RIP adjacency formation between the firewall and routing peers
