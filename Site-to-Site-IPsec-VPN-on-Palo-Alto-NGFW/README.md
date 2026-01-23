@@ -10,7 +10,7 @@
 
 This lab demonstrates encrypted connectivity between two sites using a Palo Alto NGFW site-to-site IPsec VPN, with inter-site traffic routed through a tunnel interface and enforced by zone-based security policy.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Establish an IPsec site-to-site VPN between two isolated networks
