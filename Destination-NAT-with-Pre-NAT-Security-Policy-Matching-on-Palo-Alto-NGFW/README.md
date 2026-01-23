@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates destination NAT behavior on a Palo Alto NGFW, specifically validating that inbound security policy evaluation occurs against the original pre-NAT destination address before address translation is applied.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Validate security policy enforcement using the original destination IP
