@@ -11,7 +11,7 @@ This lab validates application-based outbound Internet access by restricting a s
 
 While YouTube is used here as a representative application, the same enforcement model applies to any approved SaaS or web application.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Demonstrate baseline unrestricted outbound Internet behavior
