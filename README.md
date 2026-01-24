@@ -79,4 +79,4 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – Site-to-Site IPsec VPN on Palo Alto NGFW](Site-to-Site-IPsec-VPN-on-Palo-Alto-NGFW/)
 - [Lab – GlobalProtect Remote Access with Zone-Based Policy Enforcement on Palo Alto NGFW](GlobalProtect-Remote-Access-with-Zone-Based-Policy-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – Active/Passive HA Failover on Palo Alto NGFW](Active-Passive-HA-Failover-on-Palo-Alto-NGFW/)
-- [Lab – External Syslog Log Forwarding on Palo Alto NGFW](External-Syslog-Log-Forwarding-on-Palo-Alto-NGFW/)
+- [Lab – External Syslog Forwarding on Palo Alto NGFW](External-Syslog-Forwarding-on-Palo-Alto-NGFW/)
