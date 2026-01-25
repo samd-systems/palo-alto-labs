@@ -77,6 +77,6 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – Policy-Based Forwarding Path Override on Palo Alto NGFW](Policy-Based-Forwarding-Path-Override-on-Palo-Alto-NGFW/)
 - [Lab – Destination NAT with Pre-NAT Security Policy Matching on Palo Alto NGFW](Destination-NAT-with-Pre-NAT-Security-Policy-Matching-on-Palo-Alto-NGFW/)
 - [Lab – Site-to-Site IPsec VPN on Palo Alto NGFW](Site-to-Site-IPsec-VPN-on-Palo-Alto-NGFW/)
-- [Lab – GlobalProtect Remote Access with Zone-Based Policy Enforcement on Palo Alto NGFW](GlobalProtect-Remote-Access-with-Zone-Based-Policy-Enforcement-on-Palo-Alto-NGFW/)
+- [Lab – GlobalProtect Remote Access VPN on Palo Alto NGFW](GlobalProtect-Remote-Access-VPN-on-Palo-Alto-NGFW/)
 - [Lab – Active/Passive HA Failover on Palo Alto NGFW](Active-Passive-HA-Failover-on-Palo-Alto-NGFW/)
 - [Lab – External Syslog Forwarding on Palo Alto NGFW](External-Syslog-Forwarding-on-Palo-Alto-NGFW/)
