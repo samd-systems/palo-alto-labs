@@ -9,7 +9,7 @@
 ## Overview
 This lab demonstrates how a Palo Alto Networks NGFW enforces explicit inter-zone security policy, with routing providing reachability context. The focus is on observable policy-governed traffic behavior at the zone boundary. 
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Lab Objectives
 - Demonstrate that inter-zone traffic is permitted by security policy rather than routing state
