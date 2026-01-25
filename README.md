@@ -2,7 +2,7 @@
 
 This repository documents a curated set of hands-on engineering labs focused on practical firewall, routing, and network security design using Palo Alto Networks next-generation firewalls in multi-vendor environments.
 
-Labs are executed and validated in an EVE-NG virtual lab environment to simulate real-world network topologies, routing domains, and security enforcement scenarios.
+Labs below are executed and validated in an EVE-NG virtual lab environment to simulate real-world network topologies, routing domains, and security enforcement scenarios.
 
 The emphasis is on non-trivial configurations, system behavior analysis, and validation of outcomes rather than walkthrough-style or tutorial-based exercises.
 
