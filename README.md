@@ -4,7 +4,7 @@ This repository documents a curated set of hands-on engineering labs focused on 
 
 Labs are executed and validated in an EVE-NG virtual lab environment to simulate real-world network topologies, routing domains, and security enforcement scenarios.
 
-The emphasis is on non-trivial configurations, observable system behavior, and validation of outcomes rather than walkthrough-style or tutorial-based exercises.
+The emphasis is on non-trivial configurations, system behavior analysis, and validation of outcomes rather than walkthrough-style or tutorial-based exercises.
 
 ---
 
@@ -49,12 +49,18 @@ The labs in this repository collectively demonstrate the following core network 
 - Remote access VPN using GlobalProtect
 - Zone-based policy enforcement for VPN users
 
-### Traffic Translation & Threat Prevention
+### High Availability & Resilience
+- Active/Passive high availability architecture
+- Stateful failover behavior and session continuity
+- Redundancy design for firewall availability
+
+### Traffic Translation, Logging & Threat Prevention
 - Source and destination NAT behavior and order of operations
 - SSL Forward Proxy inspection and decrypted traffic enforcement
 - Threat Prevention enforcement on permitted traffic
 - Inline Vulnerability Protection enforcement
 - Zone Protection and DoS mitigation mechanisms
+- External syslog forwarding for centralized logging and visibility
 
 ---
 
