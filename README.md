@@ -66,7 +66,7 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – RIP Authentication on Palo Alto NGFW](RIP-Authentication-on-Palo-Alto-NGFW/)
 - [Lab – OSPF Configuration on Palo Alto NGFW](OSPF-Configuration-on-Palo-Alto-NGFW/)
 - [Lab – BGP Routing on Palo Alto NGFW](BGP-Routing-on-Palo-Alto-NGFW/)
-- [Lab – Default Routing, Route Redistribution, and Inter-Zone Policy Enforcement on Palo Alto NGFW](Default-Routing-Route-Redistribution-and-Inter-Zone-Policy-on-Palo-Alto-NGFW/)
+- [Lab – Inter-Zone Policy Enforcement on Palo Alto NGFW](Inter-Zone-Policy-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – Application-Based Internet Access Enforcement on Palo Alto NGFW](Application-Based-Internet-Access-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – SSL Forward Proxy on Palo Alto NGFW](SSL-Forward-Proxy-on-Palo-Alto-NGFW/)
 - [Lab – Threat Prevention Enforcement on Palo Alto NGFW](Threat-Prevention-Enforcement-on-Palo-Alto-NGFW/)
