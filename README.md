@@ -77,7 +77,7 @@ Each lab is documented as a validated engineering case note with supporting topo
 - [Lab – SSL Forward Proxy on Palo Alto NGFW](SSL-Forward-Proxy-on-Palo-Alto-NGFW/)
 - [Lab – Threat Prevention Enforcement on Palo Alto NGFW](Threat-Prevention-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – Vulnerability Protection Enforcement on Palo Alto NGFW](Vulnerability-Protection-Enforcement-on-Palo-Alto-NGFW/)
-- [Lab – Zone and DoS Protection on Palo Alto NGFW](Zone-and-DoS-Protection-on-Palo-Alto-NGFW/)
+- [Lab – DoS Protection on Palo Alto NGFW](DoS-Protection-on-Palo-Alto-NGFW/)
 - [Lab – Inter-VLAN Segmentation on Palo Alto NGFW](Inter-VLAN-Segmentation-on-Palo-Alto-NGFW/)
 - [Lab – Captive Portal User-ID Enforcement on Palo Alto NGFW](Captive-Portal-User-ID-Enforcement-on-Palo-Alto-NGFW/)
 - [Lab – Policy-Based Forwarding Path Override on Palo Alto NGFW](Policy-Based-Forwarding-Path-Override-on-Palo-Alto-NGFW/)
