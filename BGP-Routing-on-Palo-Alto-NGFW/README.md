@@ -58,8 +58,9 @@ This lab was validated by observing control-plane state and routing behavior und
 - Observable routing behavior confirms stable failover and recovery
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
-- Cisco IOS routers (ISP peers)
+- Palo Alto NGFW
+- Cisco routers
+- Cisco switch
 - EVE-NG virtual lab platform
 
 ## Status
