@@ -44,7 +44,7 @@ Primary evidence includes system logs, HA status indicators, and traffic logs de
 - Proper HA synchronization reduces operational disruption during active firewall changes
 
 ## Lab Environment
-- Palo Alto NGFWs (VM-Series)
+- Palo Alto NGFWs
 - Cisco switches
 - Client workstation 
 - EVE-NG lab environment
