@@ -47,9 +47,10 @@ The topology consists of Cisco routers and a Palo Alto Networks firewall exchang
 - Observable routing outcomes confirm correct dynamic routing behavior
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
-- Cisco IOS routers
-- EVE-NG virtual lab platform
+- Palo Alto NGFW
+- Cisco routers
+- Cisco switch
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
