@@ -41,8 +41,9 @@ Proof of correct operational state:
 - Control-plane validation is essential for production readiness
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
+- Palo Alto NGFW
 - Cisco routers
+- Cisco switch
 - EVE-NG virtual lab platform
 
 ## Status
