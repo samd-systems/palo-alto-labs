@@ -43,9 +43,10 @@ This permissive inter-zone rule is intentionally used to demonstrate that routin
 - Policy hit counts provide defensible evidence of enforcement behavior
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
+- Palo Alto NGFW
 - Cisco routers
-- EVE-NG virtual lab platform
+- Cisco switch
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
