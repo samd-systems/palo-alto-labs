@@ -45,7 +45,8 @@ Primary evidence includes system logs, HA status indicators, and traffic logs de
 
 ## Lab Environment
 - Palo Alto NGFW (VM-Series)
-- Cisco switching for Layer-2 connectivity
+- Cisco switch
+- Client workstation 
 - EVE-NG lab environment
 
 ## Status
