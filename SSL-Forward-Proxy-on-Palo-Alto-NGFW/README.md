@@ -41,9 +41,10 @@ After SSL forward proxy decryption was enabled, the firewall assumed certificate
 - Client trust is a required dependency for enforcing security policy on HTTPS traffic
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
+- Palo Alto NGFW
+- Cisco switch
 - Client workstation
-- EVE-NG virtual lab platform
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
