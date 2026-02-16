@@ -45,9 +45,10 @@ Primary evidence consists of NGFW traffic logs and corresponding external syslog
 - Centralized log collection enables consistent correlation of firewall activity with external monitoring and analysis systems.
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
-- External syslog server
-- EVE-NG
+- Palo Alto NGFW
+- Syslog server
+- Client workstation
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
