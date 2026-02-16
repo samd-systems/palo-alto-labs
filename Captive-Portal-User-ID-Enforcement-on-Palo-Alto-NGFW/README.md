@@ -41,10 +41,9 @@ After successful authentication, outbound traffic was associated with a resolved
 - User-ID integration improves policy precision and reduces unauthorized exposure
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
-- Inside client workstation
-- Internet-facing outside network
-- EVE-NG
+- Palo Alto NGFW
+- Client workstation
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
