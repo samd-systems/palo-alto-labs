@@ -41,8 +41,9 @@ The environment consists of a Palo Alto NGFW with Inside, Server, Outside, and V
 
 ## Lab Environment
 - Palo Alto NGFW (VM-Series)
-- Cisco routing devices
-- EVE-NG
+- Cisco Router
+- Client workstations
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
