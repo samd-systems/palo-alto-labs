@@ -45,9 +45,11 @@ The detailed session view in validation-2.png confirms destination NAT translati
 - Clear separation of policy enforcement (pre-NAT) and address translation (post-policy) improves operational predictability and reduces the attack surface by ensuring inbound traffic is evaluated against published service addresses rather than internal topology.
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
-- Cisco-based routing and switching components
-- EVE-NG virtual lab environment
+- Palo Alto NGFW
+- Cisco router
+- Cisco switch
+- Client workstation
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
