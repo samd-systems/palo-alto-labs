@@ -45,7 +45,7 @@ Traffic was tested against a defined access plan to confirm the firewall allowed
 - Required access is allowed, while unnecessary internal network access is intentionally blocked
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
+- Palo Alto NGFW
 - Cisco switch
 - Web server
 - Client workstations
