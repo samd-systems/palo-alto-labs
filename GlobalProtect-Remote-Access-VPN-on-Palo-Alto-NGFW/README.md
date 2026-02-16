@@ -40,8 +40,9 @@ The environment consists of a Palo Alto NGFW with Inside, Server, Outside, and V
 - Observable validation confirms secure and controlled remote connectivity
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
+- Palo Alto NGFW
 - Cisco Router
+- Server
 - Client workstations
 - EVE-NG lab environment
 
