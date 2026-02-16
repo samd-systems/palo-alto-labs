@@ -48,7 +48,7 @@ After enforcement, outbound traffic permitted from the host was identified as Yo
 - Palo Alto NGFW
 - Cisco Switch
 - Client workstations
-- EVE-NG virtual lab platform
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
