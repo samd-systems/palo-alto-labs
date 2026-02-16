@@ -18,7 +18,7 @@ The content is documented as a validated engineering case note rather than a con
 - Observe synchronization and state consistency following role change
 
 ## Topology Summary
-The lab consists of two Palo Alto NGFW virtual appliances configured in an active/passive High Availability pair. Both firewalls share Layer-2 inside and outside segments and use dedicated HA1 and HA2 links for control and data synchronization, with a backup physical link configured for each. The firewalls are managed via out-of-band management interfaces. An internal host generates traffic toward an external destination through the HA pair.
+The topology consists of two Palo Alto NGFW virtual appliances configured in an active/passive High Availability pair. Both firewalls share Layer-2 inside and outside segments and use dedicated HA1 and HA2 links for control and data synchronization, with a backup physical link configured for each. The firewalls are managed via out-of-band management interfaces. An internal host generates traffic toward an external destination through the HA pair.
 
 ## Configuration Summary
 - Active/passive HA enabled with link monitoring
