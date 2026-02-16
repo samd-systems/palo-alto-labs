@@ -43,9 +43,10 @@ ICMP traffic from the Site-A internal host to the Site-B server is permitted by 
 - Encrypted routing paths reduce exposure to unintended cleartext inter-site communication.
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
-- Peer Palo Alto NGFW
-- EVE-NG
+- Palo Alto NGFWs
+- Server
+- Client Workstation
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
