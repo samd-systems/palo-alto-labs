@@ -17,7 +17,7 @@ The content is documented as a validated engineering case note rather than a con
 - Observe behavior when traffic is forced onto an unavailable upstream path
 
 ## Topology Summary
-The lab includes a Palo Alto NGFW with an inside client network and two upstream ISP connections. Security policy allows inside-to-outside traffic, while Policy-Based Forwarding is used to control which upstream path selected traffic follows. No unauthorized participants are present.
+The topology includes a Palo Alto NGFW with an inside client network and two upstream ISP connections. Security policy allows inside-to-outside traffic, while Policy-Based Forwarding is used to control which upstream path selected traffic follows. No unauthorized participants are present.
 
 ## Configuration Summary
 - Security policy allowing inside-to-outside traffic
