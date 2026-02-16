@@ -46,7 +46,8 @@ After enforcement, outbound traffic permitted from the host was identified as Yo
 
 ## Lab Environment
 - Palo Alto Networks NGFW (VM-Series)
-- Cisco Layer 2 switch
+- Cisco Switch
+- Client workstation
 - EVE-NG virtual lab platform
 
 ## Status
