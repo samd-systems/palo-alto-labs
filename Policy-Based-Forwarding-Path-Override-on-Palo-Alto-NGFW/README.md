@@ -41,9 +41,10 @@ After Policy-Based Forwarding was applied, the same traffic was forced onto the 
 - Controlled path selection helps manage exposure to upstream availability issues
 
 ## Lab Environment
-- Palo Alto NGFW (VM-Series)
-- Cisco IOS routers (ISP peers)
-- EVE-NG
+- Palo Alto NGFW
+- Cisco routers
+- Client workstation 
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
