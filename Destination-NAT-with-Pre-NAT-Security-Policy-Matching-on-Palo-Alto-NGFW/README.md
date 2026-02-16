@@ -48,7 +48,7 @@ The detailed session view in validation-2.png confirms destination NAT translati
 - Palo Alto NGFW
 - Cisco router
 - Cisco switch
-- Client workstation
+- Client workstations
 - EVE-NG lab environment
 
 ## Status
