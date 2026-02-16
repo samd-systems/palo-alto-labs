@@ -41,9 +41,9 @@ After Threat Prevention profiles are applied, outbound traffic is inspected inli
 - User-visible block pages provide clear evidence of active inspection and enforcement
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
-- Cisco routing and switching infrastructure
-- EVE-NG virtual lab platform
+- Palo Alto NGFW
+- Cisco switch
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
