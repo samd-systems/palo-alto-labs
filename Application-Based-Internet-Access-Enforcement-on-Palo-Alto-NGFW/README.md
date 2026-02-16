@@ -45,9 +45,9 @@ After enforcement, outbound traffic permitted from the host was identified as Yo
 - Behavioral validation confirms effective enforcement of security intent
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
+- Palo Alto NGFW
 - Cisco Switch
-- Client workstation
+- Client workstations
 - EVE-NG virtual lab platform
 
 ## Status
