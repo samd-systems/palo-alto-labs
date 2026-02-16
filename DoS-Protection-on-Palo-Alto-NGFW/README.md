@@ -41,10 +41,11 @@ After DoS Protection enforcement engages, dataplane packet capture shows ICMP ec
 - Packet-level evidence provides authoritative confirmation of mitigation
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
-- Cisco routing and switching devices
-- Linux-based attacker and server hosts
-- EVE-NG virtual lab platform
+- Palo Alto NGFW
+- Cisco Switch
+- Linux-based attacker
+- Client workstation
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
