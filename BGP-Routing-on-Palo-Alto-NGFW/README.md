@@ -61,7 +61,7 @@ This lab was validated by observing control-plane state and routing behavior und
 - Palo Alto NGFW
 - Cisco routers
 - Cisco switch
-- EVE-NG virtual lab platform
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
