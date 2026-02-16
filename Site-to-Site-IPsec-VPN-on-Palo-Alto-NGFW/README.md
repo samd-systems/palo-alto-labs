@@ -19,7 +19,7 @@ The content is documented as a validated engineering case note rather than a con
 - Observe encrypted data-plane traffic traversing the VPN tunnel
 
 ## Topology Summary
-The lab consists of two sites connected over the internet, each protected by a Palo Alto NGFW. Internal hosts reside in separate trust zones, while a dedicated tunnel interface placed in a VPN security zone provides the sole permitted path for inter-site communication. Management connectivity is isolated from data-plane traffic.
+The environment consists of two sites connected over the internet, each protected by a Palo Alto NGFW. Internal hosts reside in separate trust zones, while a dedicated tunnel interface placed in a VPN security zone provides the sole permitted path for inter-site communication. Management connectivity is isolated from data-plane traffic.
 
 ## Configuration Summary
 - IKE gateway and IPsec tunnel configuration
