@@ -46,8 +46,10 @@ Traffic was tested against a defined access plan to confirm the firewall allowed
 
 ## Lab Environment
 - Palo Alto NGFW (VM-Series)
-- Cisco switching infrastructure
-- EVE-NG
+- Cisco switch
+- Web server
+- Client workstations
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
