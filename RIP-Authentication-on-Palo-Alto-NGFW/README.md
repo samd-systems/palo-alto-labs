@@ -43,9 +43,9 @@ The topology consists of Cisco routers and a Palo Alto Networks firewall exchang
 - Packet-level validation provides authoritative confirmation of routing behavior
 
 ## Lab Environment
-- Palo Alto Networks NGFW (VM-Series)
-- Cisco IOS routers
-- EVE-NG virtual lab platform
+- Palo Alto NGFW
+- Cisco routers
+- EVE-NG lab environment
 
 ## Status
 Validated and complete.
