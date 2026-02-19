@@ -1,16 +1,16 @@
 # Palo Alto Next-Generation Firewall & Network Engineering Labs
 
-This repository documents a curated set of hands-on engineering labs focused on practical firewall, routing, and network security design using Palo Alto Networks next-generation firewalls in multi-vendor environments.
+This repository documents a curated set of hands-on engineering labs and structured incident case studies focused on practical firewall architecture, dynamic routing behavior, policy-driven security enforcement, and systematic failure-state analysis using Palo Alto Networks next-generation firewalls in multi-vendor environments.
 
-Labs below are executed and validated in an EVE-NG virtual lab environment to simulate real-world network topologies, routing domains, and security enforcement scenarios.
+All scenarios are executed and validated within an EVE-NG virtual lab environment designed to simulate enterprise-style network topologies.
 
-The emphasis is on non-trivial configurations, system behavior analysis, and validation of outcomes rather than walkthrough-style or tutorial-based exercises.
+The emphasis is on deterministic behavior and validated engineering outcomes rather than walkthrough-style configuration exercises.
 
 ---
 
 ## Capability Areas Demonstrated
 
-The labs in this repository collectively demonstrate the following core network and security engineering capabilities:
+The labs and incident case studies in this repository collectively demonstrate the following core network and security engineering capabilities:
 
 ### Routing & Control Plane Behavior
 - Dynamic routing protocols (RIP, OSPF, BGP)
@@ -18,18 +18,21 @@ The labs in this repository collectively demonstrate the following core network 
 - Route authentication and routing stability
 - Default routing and route redistribution
 - Policy-based traffic steering and deterministic path selection
+- Troubleshooting routing misconfigurations and traffic blackholes
 
 ### Network Segmentation & Zone Design
 - Zone-based security architecture and trust boundary definition
 - Inter-zone traffic flow design
 - Inter-VLAN segmentation and isolation
 - Segmentation enforcement independent of routing state
+- Validation of segmentation failures and policy conflicts
 
 ### Access Control & Policy Enforcement
 - Explicit inter-zone security policy enforcement
 - Least-privilege access design across security zones
 - Policy-driven traffic enforcement independent of routing decisions
 - Security policy evaluation relative to NAT translation
+- Rule order evaluation and implicit deny analysis
 
 ### Application Awareness & Visibility
 - Application identification using App-ID
@@ -48,11 +51,13 @@ The labs in this repository collectively demonstrate the following core network 
 - Secure inter-site communication over untrusted networks
 - Remote access VPN using GlobalProtect
 - Zone-based policy enforcement for VPN users
+- Troubleshooting encrypted traffic enforcement behavior
 
 ### High Availability & Resilience
 - Active/Passive high availability architecture
 - Stateful failover behavior and session continuity
 - Redundancy design for firewall availability
+- Validation of failover behavior under active traffic conditions
 
 ### Traffic Translation, Logging & Threat Prevention
 - Source and destination NAT behavior and order of operations
@@ -61,12 +66,41 @@ The labs in this repository collectively demonstrate the following core network 
 - Inline Vulnerability Protection enforcement
 - Zone Protection and DoS mitigation mechanisms
 - External syslog forwarding for centralized logging and visibility
+- Log-driven investigation and traffic flow validation
 
 ---
 
-## Labs
+## Repository Structure
 
-Each lab is documented as a validated engineering case note with supporting topology diagrams and validation artifacts.
+This repository is organized into two primary categories:
+
+Configuration & Design Labs  
+Focused on feature implementation, behavioral validation, enforcement logic, and deterministic traffic design.
+
+Incident Case Studies  
+Focused on failure-state conditions, investigative workflow, root cause determination, corrective remediation, and post-fix validation artifacts.
+
+---
+
+## Incident Case Studies
+
+Each incident is documented as an engineering case note including:
+
+- Observable symptoms  
+- Investigation methodology  
+- Root cause isolation  
+- Corrective action  
+- Post-remediation validation  
+
+- [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
+
+(Additional incident case studies will be added to this series.)
+
+---
+
+## Configuration & Design Labs
+
+Each lab is documented as a validated engineering case note with supporting topology diagrams and enforcement validation artifacts.
 
 - [Lab – RIP Routing on Palo Alto NGFW](RIP-Routing-on-Palo-Alto-NGFW/)
 - [Lab – RIP Authentication on Palo Alto NGFW](RIP-Authentication-on-Palo-Alto-NGFW/)
