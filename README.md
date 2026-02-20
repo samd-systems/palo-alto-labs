@@ -93,6 +93,7 @@ Each incident is documented as an engineering case note including:
 - Post-remediation validation  
 
 - [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
+- [Incident – Application-Based Policy Mismatch on Palo Alto NGFW](Incident-Application-Based-Policy-Mismatch-on-Palo-Alto-NGFW/)
 
 (Additional incident case studies will be added to this series.)
 
