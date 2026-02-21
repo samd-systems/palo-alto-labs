@@ -1,12 +1,8 @@
 # Palo Alto Next-Generation Firewall & Network Engineering Labs
 
-This repository documents a curated set of hands-on engineering labs and structured incident case studies focused on practical firewall architecture, dynamic routing behavior, policy-driven security enforcement, and systematic failure-state analysis using Palo Alto Networks next-generation firewalls in multi-vendor environments.
+This repository documents a curated set of hands-on engineering labs and structured incident case studies focused on firewall architecture, dynamic routing behavior, segmentation design, and policy-driven security enforcement using Palo Alto Networks next-generation firewalls in multi-vendor environments.
 
-This body of work was built to demonstrate NGFW engineering capability across routing, segmentation, policy enforcement, identity integration, and failure-state validation rather than exam-focused configuration exercises.
-
-All scenarios are executed and validated within an EVE-NG virtual lab environment designed to simulate production-style network topologies. Scenarios are structured to model change validation, enforcement drift detection, and failure-state recovery across segmented network domains.
-
-The emphasis is on deterministic behavior and validated engineering outcomes rather than walkthrough-style configuration exercises.
+The body of work demonstrates NGFW engineering capability across routing, segmentation, identity integration, and failure-state analysis through controlled, scenario-based validation. All scenarios are executed within an EVE-NG virtual lab environment modeled on production-style topologies and operational change conditions, including enforcement drift detection and failure-state recovery.
 
 ---
 
