@@ -84,7 +84,7 @@ Each validated engineering case note includes topology context, observable behav
 
 ## Incident Case Studies
 
-Each incident is documented as an engineering case note including:
+Each incident is documented as a structured engineering case note including:
 
 - Observable symptoms  
 - Investigation methodology  
