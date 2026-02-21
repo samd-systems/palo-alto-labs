@@ -53,6 +53,7 @@ The Temp-Allow-Trust-to-DMZ rule was disabled and logging was enabled on the int
 
 - Rule order directly determines which policy is applied when a session is created.
 - Temporary permissive rules can override intended segmentation when rule order is not revalidated after changes.
+- This pattern commonly occurs when temporary access rules are added during troubleshooting and never removed or re-scoped.
 - Hit counters and session logs provide immediate visibility into rule precedence behavior.
 
 ## Lab Environment
