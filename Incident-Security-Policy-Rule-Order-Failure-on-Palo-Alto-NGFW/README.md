@@ -1,6 +1,6 @@
 ![Topology](topology.png)
-![Failure](failure.png)
 ![Context](context.png)
+![Failure](failure.png)
 ![Validation](validation.png)
 
 # Incident Case Study - Security Policy Rule Order Failure on Palo Alto NGFW
