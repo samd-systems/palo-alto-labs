@@ -78,8 +78,6 @@ Focused on feature implementation, behavioral validation, enforcement logic, and
 Incident Case Studies  
 Focused on failure-state conditions, investigative workflow, root cause determination, corrective remediation, and post-fix validation artifacts.
 
-Each validated engineering case note includes topology context, observable behavior, investigative methodology, root cause isolation, corrective action, and post-remediation validation.
-
 ---
 
 ## Incident Case Studies
