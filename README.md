@@ -84,13 +84,7 @@ Each validated engineering case note includes topology context, observable behav
 
 ## Incident Case Studies
 
-Each incident is documented as a structured engineering case note including:
-
-- Observable symptoms  
-- Investigation methodology  
-- Root cause isolation  
-- Corrective action  
-- Post-remediation validation  
+Each incident is documented as a structured engineering case note including: observable symptoms, investigation methodology, root cause isolation, corrective action, and post-remediation validation.
 
 - [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
 - [Incident – Application-Based Policy Mismatch on Palo Alto NGFW](Incident-Application-Based-Policy-Mismatch-on-Palo-Alto-NGFW/)
