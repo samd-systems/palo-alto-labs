@@ -1,6 +1,6 @@
 ![Topology](topology.png)
-![Failure](failure.png)
 ![Context](context.png)
+![Failure](failure.png)
 ![Validation](validation.png)
 
 # Incident Case Study - Application-Based Policy Mismatch on Palo Alto NGFW
