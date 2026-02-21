@@ -52,14 +52,10 @@ Modified the Inside-to-Outside security rule to include ssl and quic application
 
 ## Engineering Lessons
 
-- Application-default service does not implicitly permit related applications.
+- This pattern commonly occurs during transitions from port-based to App-ID–based policy design or security hardening efforts, where required applications are not explicitly included and legitimate traffic is denied by default policy.
+- Application-default enforces port compliance but does not implicitly permit related applications.
 - Policy intent should be validated against observed application behavior rather than assumed protocol relationships.
-- Monitoring for ssl or quic traffic denied by interzone-default provides an early indicator of outbound policy gaps.
-- Broad Inside-to-Outside allow rules simplify administration but require disciplined application coverage validation to ensure encrypted transport is explicitly accounted for.
-
-## Policy Design Consideration
-
-The Inside-to-Outside rule relied on explicit application inclusion while using application-default service. A more resilient approach is to define outbound encrypted transport expectations intentionally and align rule coverage with observed traffic patterns. Periodic comparison of denied application logs against rule intent reduces the likelihood of silent enforcement gaps as application identification evolves.
+- Monitoring default-rule deny logs for legitimate application traffic provides an early indicator of outbound policy design gaps.
 
 ## Lab Environment
 
