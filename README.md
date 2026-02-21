@@ -2,7 +2,9 @@
 
 This repository documents a curated set of hands-on engineering labs and structured incident case studies focused on practical firewall architecture, dynamic routing behavior, policy-driven security enforcement, and systematic failure-state analysis using Palo Alto Networks next-generation firewalls in multi-vendor environments.
 
-All scenarios are executed and validated within an EVE-NG virtual lab environment designed to simulate enterprise-style network topologies.
+This body of work was built to demonstrate production-style NGFW engineering capability across routing, segmentation, policy enforcement, identity integration, and failure-state validation rather than exam-focused configuration exercises.
+
+All scenarios are executed and validated within an EVE-NG virtual lab environment designed to simulate production-style network topologies. Scenarios are structured to model change validation, enforcement drift detection, and failure-state recovery across segmented network domains.
 
 The emphasis is on deterministic behavior and validated engineering outcomes rather than walkthrough-style configuration exercises.
 
@@ -80,6 +82,8 @@ Focused on feature implementation, behavioral validation, enforcement logic, and
 Incident Case Studies  
 Focused on failure-state conditions, investigative workflow, root cause determination, corrective remediation, and post-fix validation artifacts.
 
+Each validated engineering case note includes topology context, observable behavior, investigative methodology, root cause isolation, corrective action, and post-remediation validation.
+
 ---
 
 ## Incident Case Studies
@@ -95,7 +99,7 @@ Each incident is documented as an engineering case note including:
 - [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
 - [Incident – Application-Based Policy Mismatch on Palo Alto NGFW](Incident-Application-Based-Policy-Mismatch-on-Palo-Alto-NGFW/)
 
-(Additional incident case studies will be added to this series.)
+This series will expand as additional incident scenarios are validated and documented.
 
 ---
 
