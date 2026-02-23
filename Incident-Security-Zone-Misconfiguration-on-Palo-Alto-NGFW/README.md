@@ -1,7 +1,7 @@
 ![Topology](topology.png)
+![Context](context.png)
 ![Failure](failure.png)
 ![Validation](validation.png)
-![Context](context.png)
 
 # Incident Case Study - Security Zone Misconfiguration on Palo Alto NGFW
 
