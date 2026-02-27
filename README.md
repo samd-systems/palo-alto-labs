@@ -86,7 +86,8 @@ Each incident is documented as a structured engineering case note including: obs
 
 - [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
 - [Incident – Application-Based Policy Mismatch on Palo Alto NGFW](Incident-Application-Based-Policy-Mismatch-on-Palo-Alto-NGFW/)
-- [Incident –  Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
+- [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
+- [Incident – NAT Rule Order Shadowing on Palo Alto NGFW](Incident-NAT-Rule-Order-Shadowing-on-Palo-Alto-NGFW/)
 
 This series will expand as additional incident scenarios are validated and documented.
 
