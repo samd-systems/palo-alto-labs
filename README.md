@@ -89,6 +89,7 @@ Each incident is documented as a structured engineering case note including: obs
 - [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
 - [Incident – Source NAT Conflict on Palo Alto NGFW](Incident-Source-NAT-Conflict-on-Palo-Alto-NGFW/)
 - [Incident – IPsec Tunnel Selective Failure on Palo Alto NGFW](Incident-IPsec-Tunnel-Selective-Failure-on-Palo-Alto-NGFW/)
+- [Incident – BGP Return Path Blackhole on Palo Alto NGFW](Incident-BGP-Return-Path-Blackhole-on-Palo-Alto-NGFW/)
 
 This series will expand as additional incident scenarios are validated and documented.
 
