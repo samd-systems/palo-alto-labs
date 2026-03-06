@@ -27,7 +27,7 @@ Site-to-site connectivity across the VPN tunnel was unavailable. All traffic flo
 1. Reviewed the headquarters firewall traffic logs to confirm the ICMP session was permitted and forwarded into the VPN tunnel interface.
 2. Verified the remote firewall received the ICMP request through the tunnel.
 3. Examined the BGP session and Local RIB. The session remained established and all headquarters /24 prefixes were present.
-4. Compared the BGP Local RIB with the active routing table. The headquarters prefixes were absent from the routing table, leaving the default route as the only forwarding match toward the outside interface.
+4. Compared the BGP Local RIB with the active routing table. The headquarters prefixes were absent from the routing table, leaving the default route as the only forwarding path toward the outside interface.
 
 ## Root Cause
 
@@ -37,11 +37,11 @@ Although BGP continued receiving the individual /24 prefixes, those routes were 
 
 ## Resolution
 
-The static summary route directing headquarters networks to the VPN tunnel interface was restored on the remote firewall virtual router.
+The static summary route directing headquarters networks toward the VPN tunnel interface was restored on the remote firewall virtual router. This change reintroduced the forwarding path required for return traffic destined for the headquarters subnets. With the route in place, the remote firewall could resolve those networks through the VPN tunnel, restoring symmetric routing across the tunnel.
 
 ## Validation After Fix
 
-The remote firewall routing table showed the headquarters summary route active via the VPN tunnel interface, restoring the return path through the tunnel. Connectivity tests from the headquarters workstation to the remote server succeeded, and firewall traffic logs showed successful session completion across the VPN tunnel.
+The remote firewall routing table showed the headquarters summary route active via the VPN tunnel interface. Connectivity tests from the headquarters workstation to the remote server succeeded, and firewall traffic logs showed successful session completion across the VPN tunnel.
 
 ## Engineering Lessons
 
