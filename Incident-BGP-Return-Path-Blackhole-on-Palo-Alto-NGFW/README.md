@@ -18,26 +18,26 @@ Site-to-site connectivity across the VPN tunnel was unavailable. All traffic flo
 ## Symptoms Observed
 
 - ICMP connectivity tests from the headquarters workstation to the remote server resulted in complete packet loss
-- The headquarters firewall traffic log showed the session allowed and forwarded into the VPN tunnel interface
+- The headquarters firewall traffic log showed the session exiting toward the VPN tunnel interface
 - The remote firewall received the ICMP request through the VPN tunnel
 - The remote server remained unreachable despite the VPN tunnel and BGP session being established
 
 ## Investigation Process
 
-1. Reviewed the headquarters firewall traffic logs to confirm the ICMP session was permitted and forwarded into the VPN tunnel interface.
+1. Reviewed the headquarters firewall traffic logs and confirmed the ICMP session was permitted and routed via the VPN tunnel.
 2. Verified the remote firewall received the ICMP request through the tunnel.
-3. Examined the BGP session and Local RIB. The session remained established and all headquarters /24 prefixes were present.
+3. Examined the BGP session and Local RIB. The session remained established and all headquarters network prefixes were present.
 4. Compared the BGP Local RIB with the active routing table. The headquarters prefixes were absent from the routing table, leaving the default route as the only forwarding path toward the outside interface.
 
 ## Root Cause
 
 The remote firewall previously used a static summary route to direct return traffic for the headquarters networks through the VPN tunnel. When that route was removed, the firewall no longer had an installed route for those networks.
 
-Although BGP continued receiving the individual /24 prefixes, those routes were not installed in the active routing table. Without the summary route resolving the forwarding path toward the VPN tunnel, return traffic followed the default route toward the outside interface.
+Although BGP continued receiving the prefixes, those routes were not installed in the active routing table. Without the summary route resolving the forwarding path toward the VPN tunnel, return traffic followed the default route toward the outside interface.
 
 ## Resolution
 
-The static summary route directing headquarters networks toward the VPN tunnel interface was restored on the remote firewall virtual router. This change reintroduced the forwarding path required for return traffic destined for the headquarters subnets. With the route in place, the remote firewall could resolve those networks through the VPN tunnel, restoring symmetric routing across the tunnel.
+The static summary route directing headquarters networks via the VPN tunnel interface was restored on the remote firewall virtual router. This change reintroduced the forwarding path required for return traffic destined for the headquarters subnets. With the route in place, the remote firewall could resolve those networks through the VPN tunnel, restoring symmetric routing across the tunnel.
 
 ## Validation After Fix
 
