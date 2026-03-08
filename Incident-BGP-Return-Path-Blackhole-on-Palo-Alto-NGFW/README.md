@@ -18,7 +18,7 @@ Site-to-site connectivity across the VPN tunnel was unavailable. All traffic flo
 ## Symptoms Observed
 
 - ICMP connectivity tests from the headquarters workstation to the remote server resulted in complete packet loss
-- The headquarters firewall traffic log showed the session exiting toward the VPN tunnel interface
+- The headquarters firewall traffic log showed the session leaving through the VPN tunnel interface
 - The remote firewall received the ICMP request through the VPN tunnel
 - The remote server remained unreachable despite the VPN tunnel and BGP session being established
 
