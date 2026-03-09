@@ -13,7 +13,7 @@ The content is documented as a validated engineering case note rather than a con
 
 ## Impact
 
-A user connected to the guest network was unable to access external HTTPS websites, preventing normal web browsing from the affected device.
+Web access from the guest network was unavailable due to TLS certificate validation failures, preventing the affected device from establishing HTTPS sessions.
 
 ## Symptoms Observed
 
