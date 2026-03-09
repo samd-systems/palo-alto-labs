@@ -49,9 +49,7 @@ The SSL Forward Proxy decryption policy was broadly scoped and included the Gues
 
 - This pattern commonly occurs when SSL inspection policies are applied broadly without considering device ownership boundaries such as guest Wi-Fi or BYOD segments.
 
-- During SSL Forward Proxy inspection the firewall presents a certificate signed by the enterprise trust authority, which managed endpoints are expected to trust.
-
-- When inspection scope extends to unmanaged networks that do not trust this certificate authority, certificate validation failures can occur even though firewall security policy logs appear normal.
+- When inspection extends to unmanaged networks that do not trust this certificate authority, certificate validation failures can occur even though firewall security policy logs appear normal.
 
 - Decryption policy scope should therefore align with network segmentation and device ownership during deployment so inspection is applied only to devices intended to participate in enterprise certificate trust.
 
