@@ -13,11 +13,11 @@ The content is documented as a validated engineering case note rather than a con
 
 ## Impact
 
-Web browsing from the guest network was unsuccessful for the affected device, preventing access to external HTTPS websites.
+Web browsing from the guest network was unsuccessful for the affected device, preventing access to external websites.
 
 ## Symptoms Observed
 
-- The client device attempting to browse external HTTPS websites received TLS certificate validation errors.
+- The client device received TLS certificate validation errors.
 - Traffic logs showed outbound sessions from Guest-Zone to Outside-Zone identified as application ssl.
 - The sessions were allowed by the firewall security policy but HTTPS browsing still failed.
 
