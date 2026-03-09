@@ -13,7 +13,7 @@ The content is documented as a validated engineering case note rather than a con
 
 ## Impact
 
-Web access from the guest network was unavailable, preventing the affected device from establishing HTTPS sessions.
+A user connected to the guest network was unable to access external HTTPS websites, preventing normal web browsing from the affected device.
 
 ## Symptoms Observed
 
