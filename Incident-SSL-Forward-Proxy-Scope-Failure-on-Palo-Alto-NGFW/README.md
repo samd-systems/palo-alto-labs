@@ -57,10 +57,12 @@ The SSL Forward Proxy decryption policy was broadly scoped and included the Gues
 
 ## Lab Environment
 
-Palo Alto NGFW
-Cisco switch
-Servers
-Client workstations
-EVE-NG lab environment
+- Palo Alto NGFW
+- Cisco switch
+- Servers
+- Client workstations
+- EVE-NG lab environment
 
-Validated and complete.
+## Status
+
+Validated and complete
