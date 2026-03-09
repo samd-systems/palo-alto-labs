@@ -7,7 +7,7 @@
 
 ## Overview
 
-This case study reproduces an incident where a user connected to a guest network could not access external HTTPS websites and received browser certificate validation errors. The failure occurred even though routing, outbound connectivity, and firewall security policy enforcement were operating normally.
+This case study reproduces an incident where a user connected to a guest network could not access HTTPS websites and received browser certificate validation errors. The failure occurred even though routing, outbound connectivity, and firewall security policy enforcement were operating normally.
 
 The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
