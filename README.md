@@ -84,8 +84,6 @@ Focused on failure-state conditions, investigative workflow, root cause determin
 
 Each incident is documented as a structured engineering case note including: observable symptoms, investigation methodology, root cause isolation, corrective action, and post-remediation validation.
 
-- [Incident – Security Policy Rule Order Failure on Palo Alto NGFW](Incident-Security-Policy-Rule-Order-Failure-on-Palo-Alto-NGFW/)
-- [Incident – Application-Based Policy Mismatch on Palo Alto NGFW](Incident-Application-Based-Policy-Mismatch-on-Palo-Alto-NGFW/)
 - [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
 - [Incident – Source NAT Conflict on Palo Alto NGFW](Incident-Source-NAT-Conflict-on-Palo-Alto-NGFW/)
 - [Incident – IPsec Tunnel Selective Failure on Palo Alto NGFW](Incident-IPsec-Tunnel-Selective-Failure-on-Palo-Alto-NGFW/)
