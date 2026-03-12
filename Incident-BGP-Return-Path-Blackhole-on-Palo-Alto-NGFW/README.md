@@ -28,7 +28,6 @@ Site-to-site connectivity across the VPN tunnel was unavailable. All traffic flo
 2. Verified the remote firewall received the ICMP request through the tunnel.
 3. Examined the BGP session and Local RIB. The session remained established and all headquarters network prefixes were present.
 4. Compared the BGP Local RIB with the active routing table. The headquarters prefixes were absent from the routing table, leaving the default route as the only forwarding path toward the outside interface.
-5. Verified the prefixes were selected as the best path in the BGP table but were not installed in the routing table used for packet forwarding.
 
 ## Root Cause
 
