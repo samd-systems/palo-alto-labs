@@ -53,11 +53,11 @@ HA status showed both HA1 and HA2 links in an operational state with synchronize
 
 ## Lab Environment
 
-Palo Alto NGFWs
-Cisco switches
-Servers
-Client workstations
-EVE-NG lab environment
+- Palo Alto NGFWs
+- Cisco switches
+- Servers
+- Client workstations
+- EVE-NG lab environment
 
 ## Status
 
