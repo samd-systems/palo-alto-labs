@@ -89,6 +89,7 @@ Each incident is documented as a structured engineering case note including: obs
 - [Incident – IPsec Tunnel Selective Failure on Palo Alto NGFW](Incident-IPsec-Tunnel-Selective-Failure-on-Palo-Alto-NGFW/)
 - [Incident – BGP Return Path Blackhole on Palo Alto NGFW](Incident-BGP-Return-Path-Blackhole-on-Palo-Alto-NGFW/)
 - [Incident – SSL Forward Proxy Scope Failure on Palo Alto NGFW](Incident-SSL-Forward-Proxy-Scope-Failure-on-Palo-Alto-NGFW/)
+- [Incident – Stateful Session Loss During HA Failover on Palo Alto NGFW](Incident-Stateful-Session-Loss-During-HA-Failover-on-Palo-Alto-NGFW/)
 
 
 This series will expand as additional incident scenarios are validated and documented.
