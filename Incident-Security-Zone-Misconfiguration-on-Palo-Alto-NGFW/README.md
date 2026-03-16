@@ -20,7 +20,6 @@ Internal server assets including App-SRV-01 and AD-DC-01 were reachable from the
 - Intrazone-default rule matched with action allow.
 - Guest-to-Server-Deny rule recorded no hits.
 - Guest users were able to access internal server resources.
-- No deny logs were generated during initial access attempts.
 
 ## Investigation Process
 
