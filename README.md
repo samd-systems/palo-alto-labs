@@ -84,13 +84,12 @@ Focused on failure-state conditions, investigative workflow, root cause determin
 
 Each incident is documented as a structured engineering case note including: observable symptoms, investigation methodology, root cause isolation, corrective action, and post-remediation validation.
 
-- [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
 - [Incident – Source NAT Conflict on Palo Alto NGFW](Incident-Source-NAT-Conflict-on-Palo-Alto-NGFW/)
 - [Incident – IPsec Tunnel Selective Failure on Palo Alto NGFW](Incident-IPsec-Tunnel-Selective-Failure-on-Palo-Alto-NGFW/)
 - [Incident – BGP Return Path Blackhole on Palo Alto NGFW](Incident-BGP-Return-Path-Blackhole-on-Palo-Alto-NGFW/)
 - [Incident – SSL Forward Proxy Scope Failure on Palo Alto NGFW](Incident-SSL-Forward-Proxy-Scope-Failure-on-Palo-Alto-NGFW/)
 - [Incident – Stateful Session Loss During HA Failover on Palo Alto NGFW](Incident-Stateful-Session-Loss-During-HA-Failover-on-Palo-Alto-NGFW/)
-
+- [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
 
 This series will expand as additional incident scenarios are validated and documented.
 
