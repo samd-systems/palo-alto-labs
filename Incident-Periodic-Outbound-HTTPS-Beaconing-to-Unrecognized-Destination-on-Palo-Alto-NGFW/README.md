@@ -3,7 +3,7 @@
 ![Validation](validation.png)
 ![Context](context.png)
 
-# Incident Case Study - Periodic Outbound HTTPS Beaconing to Unrecognized External Destination on Palo Alto NGFW
+# Incident Case Study - Periodic Outbound HTTPS Beaconing to Unrecognized Destination on Palo Alto NGFW
 
 This case study reproduces an incident where outbound HTTPS sessions were observed from an internal host to an unrecognized external destination. The traffic remained classified only as ssl with no higher-layer application identification.
 
