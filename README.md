@@ -90,6 +90,7 @@ Each incident is documented as a structured engineering case note including: obs
 - [Incident – BGP Return Path Blackhole on Palo Alto NGFW](Incident-BGP-Return-Path-Blackhole-on-Palo-Alto-NGFW/)
 - [Incident – Stateful Session Loss During HA Failover on Palo Alto NGFW](Incident-Stateful-Session-Loss-During-HA-Failover-on-Palo-Alto-NGFW/)
 - [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
+- [Incident – Periodic Outbound Beaconing to Unrecognized External Destination on Palo Alto NGFW](Incident-Periodic-Outbound-Beaconing-to-Unrecognized-Destination-on-Palo-Alto-NGFW/)
 
 This series will expand as additional incident scenarios are validated and documented.
 
