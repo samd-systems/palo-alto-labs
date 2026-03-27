@@ -5,13 +5,13 @@
 
 # Incident Case Study - Periodic Outbound Beaconing to Unrecognized External Destination on Palo Alto NGFW
 
-This case study reproduces an incident where outbound HTTPS sessions were observed from an internal host to an unrecognized external destination. The traffic remained classified only as ssl with no higher-layer application identification.
+This case study reproduces an incident where outbound HTTPS sessions were observed from an internal host to an unrecognized external destination. The traffic remained classified only as ssl with no additional application identification.
 
 The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Impact
 
-It was difficult to determine whether the repeated outbound communication to the external destination represented normal or potentially malicious activity.
+With the outbound traffic unclassified, it was difficult to determine whether the activity was expected or indicative of malicious behavior, and to establish how long it had been occurring.
 
 ## Symptoms Observed
 
@@ -29,7 +29,7 @@ It was difficult to determine whether the repeated outbound communication to the
 
 ## Root Cause
 
-Outbound HTTPS traffic was permitted by policy without sufficient inspection to identify the underlying application, allowing recurring sessions to an unrecognized external destination to persist.
+SSL decryption was not applied to the affected outbound traffic path, preventing application identification and payload inspection.
 
 ## Resolution
 
