@@ -33,7 +33,7 @@ SSL decryption was not applied to the affected outbound traffic path, preventing
 
 ## Resolution
 
-Inspection policy scope was extended for the affected outbound path to improve traffic visibility. A targeted deny rule was implemented to block the suspicious external destination. An External Dynamic List was implemented and enforced through security policy to block additional untrusted destinations.
+SSL decryption policy was extended to cover the affected outbound traffic path. A targeted deny rule was implemented to block the suspicious external destination. An External Dynamic List was implemented and enforced through security policy to block additional untrusted destinations.
 
 ## Validation After Fix
 
