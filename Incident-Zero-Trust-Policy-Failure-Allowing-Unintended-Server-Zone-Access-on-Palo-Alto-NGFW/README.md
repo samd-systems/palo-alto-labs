@@ -5,17 +5,17 @@
 
 # Incident Case Study - Zero Trust Policy Failure Allowing Unintended Server Zone Access on Palo Alto NGFW
 
-This case study reproduces an incident where a GlobalProtect contractor user accessed a restricted Server Zone subnet through a VPN tunnel, exposing a Zero Trust policy failure.
+This case study reproduces an incident where a contractor using GlobalProtect accessed a restricted Server Zone subnet through a VPN tunnel. This revealed a Zero Trust policy failure.
 
 The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
 ## Impact
 
-Unauthorized access to the Server Zone was possible from GlobalProtect contractor users, exposing critical server infrastructure to unintended reachability. The activity occurred without any enforcement or detection, as no deny logs or alerts were generated during the access window.
+Unauthorized access to the Server Zone was possible from GlobalProtect contractor users, exposing critical server infrastructure to unintended access. The activity occurred without any enforcement or detection, as no deny logs or alerts were generated during the access window.
 
 ## Symptoms Observed
 
-- GlobalProtect gateway session data showed contractor user assigned a tunnel IP
+- GlobalProtect gateway session data confirmed that the contractor was assigned a tunnel IP
 - Traffic logs showed sessions from the VPN tunnel zone to the Server Zone allowed by an existing security policy
 - No deny logs recorded for this traffic
 - No alerting triggered for contractor sessions
@@ -30,7 +30,7 @@ Unauthorized access to the Server Zone was possible from GlobalProtect contracto
 
 ## Root Cause
 
-The server subnet was incorrectly included in the contractor access profile split tunnel routes during an IT user onboarding change window. The security policy, written without identity scoping, failed to act as a backstop, silently permitting the unintended access.
+The Server Zone subnet was incorrectly included in the contractor access profile's split tunnel routes during an IT user onboarding change window. The security policy, written without identity scoping, failed to act as a backstop, silently permitting the unintended access.
 
 ## Resolution
 
@@ -38,7 +38,7 @@ The Server Zone subnet was removed from the contractor access profile split tunn
 
 ## Validation After Fix
 
-- GlobalProtect gateway current-user output shows that the contractor access profile no longer includes the Server Zone subnet in its assigned access routes
+- GlobalProtect gateway current-user output confirms that the contractor access profile no longer includes the Server Zone subnet in its assigned access routes
 - No new sessions observed from the VPN tunnel zone to the Server Zone for contractor accounts in traffic logs
 
 ## Engineering Lessons
