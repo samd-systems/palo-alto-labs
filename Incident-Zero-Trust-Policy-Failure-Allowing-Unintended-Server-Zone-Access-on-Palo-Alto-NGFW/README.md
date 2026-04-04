@@ -38,7 +38,7 @@ The Server Zone subnet was removed from the contractor access profile split tunn
 
 ## Validation After Fix
 
-- GlobalProtect gateway current-user output shows contractor access profile assigned access routes no longer include the Server Zone subnet
+- GlobalProtect gateway current-user output shows that the contractor access profile no longer includes the Server Zone subnet in its assigned access routes
 - No new sessions observed from the VPN tunnel zone to the Server Zone for contractor accounts in traffic logs
 
 ## Engineering Lessons
