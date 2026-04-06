@@ -5,7 +5,7 @@
 
 # Incident Case Study - Zero Trust Policy Failure Allowing Unintended Server Zone Access on Palo Alto NGFW
 
-This case study reproduces an incident where a contractor using GlobalProtect accessed a restricted Server Zone subnet through a VPN tunnel. This revealed a Zero Trust policy failure.
+This case study reproduces an incident where a contractor using GlobalProtect accessed a restricted Server Zone subnet through a VPN tunnel, revealing a Zero Trust policy failure. 
 
 The content is documented as a validated engineering case note rather than a configuration walkthrough.
 
