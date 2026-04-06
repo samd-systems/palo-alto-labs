@@ -30,7 +30,7 @@ Unauthorized access to the Server Zone was possible from GlobalProtect contracto
 
 ## Root Cause
 
-The Server Zone subnet was incorrectly included in the contractor access profile's split tunnel routes during an IT user onboarding change window. The security policy, written without identity scoping, failed to act as a backstop, silently permitting the unintended access.
+The Server Zone subnet was incorrectly added to the contractor access profile’s split tunnel routes during an IT user onboarding change window. The security policy governing VPN tunnel zone to Server Zone traffic was written without identity scoping, allowing any authenticated VPN user to reach the Server Zone once the subnet entered the tunnel.
 
 ## Resolution
 
