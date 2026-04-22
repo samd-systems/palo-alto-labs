@@ -7,6 +7,8 @@ The focus is on how multiple control layers operate together to enforce security
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
+---
+
 ## Lab Objectives
 - Build a multi-zone enterprise network with enforced segmentation
 - Implement Zero Trust access using User-ID and Active Directory
@@ -16,9 +18,13 @@ This lab is documented as a validated engineering case note rather than a config
 - Apply threat prevention, SSL decryption, and EDL-based blocking
 - Enable centralized logging and full visibility via syslog
 
+---
+
 ## Topology
 
 ![Topology](topology.png)
+
+---
 
 ## Security Policy
 
@@ -27,6 +33,8 @@ The full security policy is shown below across the complete rulebase.
 ![Security Policy Rules 1–10](policy-rulebase-1-to-10.png)
 ![Security Policy Rules 11–14](policy-rulebase-11-to-14.png)
 ![Security Policy Rules 15–19](policy-rulebase-15-to-19.png)
+
+---
 
 ## Key Validation
 
@@ -45,10 +53,14 @@ The full security policy is shown below across the complete rulebase.
 ### Syslog Visibility
 ![Syslog](validation-syslog.png)
 
+---
+
 ## Additional Validation
 
 ### NAT Translation (Source and Destination)
 ![NAT Validation](validation-nat.png)
+
+---
 
 ## Architecture Summary
 
@@ -72,6 +84,8 @@ The full security policy is shown below across the complete rulebase.
 - Explicit allow rules based on least privilege
 - Threat prevention applied to all user traffic
 - SSL decryption enables visibility into encrypted sessions
+
+---
 
 ## Zero Trust Enforcement Model
 
@@ -100,6 +114,8 @@ The full security policy is shown below across the complete rulebase.
 - User-ID (identity enforcement)
 - Syslog (centralized audit trail)
 
+---
+
 ## Validation and Results
 
 - Inter-zone communication validated
@@ -116,6 +132,8 @@ The full security policy is shown below across the complete rulebase.
 - Zone protection actively detecting scans
 - SSL decryption functioning with trusted certificates
 
+---
+
 ## Supporting Validation
 
 ### High Availability State
@@ -130,6 +148,8 @@ The full security policy is shown below across the complete rulebase.
 ### Active Directory OU Structure
 ![AD Structure](ad-ou-structure.png)
 
+---
+
 ## Key Takeaways
 
 The hardest part of building a secure network is not the configuration. It is understanding why configuration alone is never enough. Routing establishes connectivity, and policy determines what is actually permitted. Getting traffic to flow is straightforward. Ensuring it only flows where identity and policy allow it is where the engineering happens.
@@ -141,6 +161,8 @@ Encrypted traffic adds another layer. Most modern traffic is SSL. Without decryp
 Centralized logging closes the remaining gap. It brings identity, policy, threat, and session data together into a single, verifiable audit trail, but only when every component contributes to it.
 
 At the center of it all is identity. IP-based controls break down in dynamic environments. Identity-based enforcement ensures access decisions follow the user, not the network location. That is what makes Zero Trust enforceable, not just theoretical.
+
+---
 
 ## Lab Environment
 - EVE-NG network emulation platform
