@@ -1,8 +1,30 @@
-# Palo Alto Next-Generation Firewall & Network Engineering Labs
+# Palo Alto Next-Generation Firewall Engineering Portfolio
+
+## Overview
 
 This repository documents a curated set of hands-on engineering labs and structured incident case studies focused on firewall architecture, dynamic routing behavior, segmentation design, and policy-driven security enforcement using Palo Alto Networks next-generation firewalls in multi-vendor environments.
 
 The body of work demonstrates NGFW engineering capability across routing, segmentation, identity integration, and failure-state analysis through controlled, scenario-based validation. All scenarios are executed within an EVE-NG virtual lab environment modeled on production-style topologies and operational change conditions, including enforcement drift detection and failure-state recovery.
+
+Each lab and incident is documented as a validated engineering case note focused on observable behavior and verified outcomes rather than configuration steps.
+
+---
+
+## Featured Lab
+
+### [Palo Alto NGFW Cornerstone Lab – End-to-End Enterprise Security Architecture](Palo-Alto-NGFW-Cornerstone-Lab-End-to-End-Enterprise-Security-Architecture/)
+
+A full enterprise network architecture demonstrating:
+
+- Multi-zone segmentation across 10 security zones  
+- Identity-based policy enforcement using User-ID  
+- Active/Passive HA with session synchronization  
+- Site-to-site IPsec VPN with eBGP route exchange  
+- GlobalProtect remote access  
+- Threat prevention, SSL decryption, and EDL enforcement  
+- Centralized logging across all control planes  
+
+This lab serves as the foundation for the repository and demonstrates how routing, policy, identity, and security controls interact in a complete environment with validated outcomes.
 
 ---
 
@@ -68,6 +90,21 @@ The labs and incident case studies in this repository collectively demonstrate t
 
 ---
 
+## Approach
+
+These labs are not configuration walkthroughs.
+
+They are built to demonstrate how systems behave under real conditions, with validation focused on:
+
+- What traffic is allowed or denied  
+- How routing decisions affect forwarding behavior  
+- How identity impacts policy enforcement  
+- Where visibility is gained or lost  
+
+Each scenario emphasizes verification over configuration.
+
+---
+
 ## Repository Structure
 
 This repository is organized into two primary categories:
@@ -93,14 +130,13 @@ Each incident is documented as a structured engineering case note including: obs
 - [Incident – Periodic Outbound Beaconing to Unrecognized External Destination on Palo Alto NGFW](Incident-Periodic-Outbound-Beaconing-to-Unrecognized-Destination-on-Palo-Alto-NGFW/)
 - [Incident – Zero Trust Policy Failure Allowing Unintended Server Zone Access on Palo Alto NGFW](Incident-Zero-Trust-Policy-Failure-Allowing-Unintended-Server-Zone-Access-on-Palo-Alto-NGFW/)
 
-This series will expand as additional incident scenarios are validated and documented.
-
 ---
 
 ## Configuration & Design Labs
 
 Each lab is documented as a validated engineering case note with supporting topology diagrams and enforcement validation artifacts.
 
+- [Lab – Palo Alto NGFW Cornerstone Lab](Palo-Alto-NGFW-Cornerstone-Lab/)
 - [Lab – RIP Routing on Palo Alto NGFW](RIP-Routing-on-Palo-Alto-NGFW/)
 - [Lab – RIP Authentication on Palo Alto NGFW](RIP-Authentication-on-Palo-Alto-NGFW/)
 - [Lab – OSPF Configuration on Palo Alto NGFW](OSPF-Configuration-on-Palo-Alto-NGFW/)
