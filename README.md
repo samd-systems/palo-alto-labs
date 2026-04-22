@@ -8,8 +8,6 @@ The body of work demonstrates NGFW engineering capability across routing, segmen
 
 Each lab and incident is documented as a validated engineering case note focused on observable behavior and verified outcomes rather than configuration steps.
 
----
-
 ## Featured Lab
 
 ### [Palo Alto NGFW Cornerstone Lab – End-to-End Enterprise Security Architecture](Palo-Alto-NGFW-Cornerstone-Lab-End-to-End-Enterprise-Security-Architecture/)
@@ -25,8 +23,6 @@ A full enterprise network architecture demonstrating:
 - Centralized logging across all control planes  
 
 This lab serves as the foundation for the repository and demonstrates how routing, policy, identity, and security controls interact in a complete environment with validated outcomes.
-
----
 
 ## Capability Areas Demonstrated
 
@@ -88,8 +84,6 @@ The labs and incident case studies in this repository collectively demonstrate t
 - External syslog forwarding for centralized logging and visibility
 - Log-driven investigation and traffic flow validation
 
----
-
 ## Approach
 
 These labs are not configuration walkthroughs.
@@ -103,8 +97,6 @@ They are built to demonstrate how systems behave under real conditions, with val
 
 Each scenario emphasizes verification over configuration.
 
----
-
 ## Repository Structure
 
 This repository is organized into two primary categories:
@@ -114,8 +106,6 @@ Focused on feature implementation, behavioral validation, enforcement logic, and
 
 Incident Case Studies  
 Focused on failure-state conditions, investigative workflow, root cause determination, corrective remediation, and post-fix validation artifacts.
-
----
 
 ## Incident Case Studies
 
@@ -129,8 +119,6 @@ Each incident is documented as a structured engineering case note including: obs
 - [Incident – Security Zone Misconfiguration on Palo Alto NGFW](Incident-Security-Zone-Misconfiguration-on-Palo-Alto-NGFW/)
 - [Incident – Periodic Outbound Beaconing to Unrecognized External Destination on Palo Alto NGFW](Incident-Periodic-Outbound-Beaconing-to-Unrecognized-Destination-on-Palo-Alto-NGFW/)
 - [Incident – Zero Trust Policy Failure Allowing Unintended Server Zone Access on Palo Alto NGFW](Incident-Zero-Trust-Policy-Failure-Allowing-Unintended-Server-Zone-Access-on-Palo-Alto-NGFW/)
-
----
 
 ## Configuration & Design Labs
 
