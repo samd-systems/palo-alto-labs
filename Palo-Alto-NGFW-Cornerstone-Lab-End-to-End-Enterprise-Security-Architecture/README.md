@@ -9,7 +9,7 @@ This lab is documented as a validated engineering case note, not a configuration
 
 ## Lab Objectives
 - Build a multi-zone enterprise network with enforced segmentation
-- Deploy Cisco multi-tier switching with LACP port-channels and VLAN segmentation
+- Deploy multi-tier switching with LACP port-channels and VLAN segmentation
 - Implement Zero Trust access using User-ID and Active Directory
 - Deploy an Active/Passive HA pair with session synchronization
 - Establish site-to-site IPsec VPN with eBGP route exchange
