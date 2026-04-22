@@ -14,7 +14,7 @@ Each lab and incident is documented as a validated engineering case note focused
 
 ### Palo Alto NGFW Cornerstone Lab - End-to-End Enterprise Security Architecture
 
-[View lab documentation](Palo-Alto-NGFW-Cornerstone-Lab-End-to-End-Enterprise-Security-Architecture/)
+[View Palo Alto NGFW Cornerstone Lab](Palo-Alto-NGFW-Cornerstone-Lab-End-to-End-Enterprise-Security-Architecture/)
 
 A full enterprise network architecture demonstrating:
 
