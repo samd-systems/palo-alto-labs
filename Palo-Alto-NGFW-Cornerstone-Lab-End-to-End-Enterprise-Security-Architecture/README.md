@@ -7,8 +7,6 @@ The focus is on how multiple control layers operate together to enforce security
 
 This lab is documented as a validated engineering case note rather than a configuration walkthrough.
 
----
-
 ## Lab Objectives
 - Build a multi-zone enterprise network with enforced segmentation
 - Implement Zero Trust access using User-ID and Active Directory
