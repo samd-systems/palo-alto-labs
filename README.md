@@ -111,11 +111,11 @@ Each scenario emphasizes verification over configuration.
 
 This repository is organized into two primary categories:
 
-Configuration & Design Labs  
-Focused on feature implementation, behavioral validation, enforcement logic, and deterministic traffic design.
-
 Incident Case Studies  
 Focused on failure-state conditions, investigative workflow, root cause determination, corrective remediation, and post-fix validation artifacts.
+
+Configuration & Design Labs  
+Focused on feature implementation, behavioral validation, enforcement logic, and deterministic traffic design.
 
 ---
 
