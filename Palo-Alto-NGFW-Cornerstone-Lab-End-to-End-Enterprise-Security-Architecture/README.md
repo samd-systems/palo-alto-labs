@@ -158,7 +158,7 @@ Encrypted traffic adds another layer. Most modern traffic is SSL. Without decryp
 
 Centralized logging closes the remaining gap. It brings identity, policy, threat, and session data together into a single, verifiable audit trail, but only when every component contributes to it.
 
-At the center of it all is identity. IP-based controls break down in dynamic environments. Identity-based enforcement ensures access decisions follow the user, not the network location. That is what makes Zero Trust enforceable, not just theoretical.
+At the center of it all is identity. IP-based controls break down in dynamic environments. Identity-based enforcement ensures access decisions follow the user, not the network location. That is what makes Zero Trust enforceable, not just advertising hype.
 
 ---
 
