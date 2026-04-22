@@ -5,10 +5,11 @@ This lab demonstrates a complete enterprise network architecture built on Palo A
 
 The focus is on how multiple control layers operate together to enforce security decisions based on identity, zone, application, and threat intelligence, with all outcomes validated through observable behavior.
 
-This lab is documented as a validated engineering case note rather than a configuration walkthrough.
+This lab is documented as a validated engineering case note, not a configuration walkthrough.
 
 ## Lab Objectives
 - Build a multi-zone enterprise network with enforced segmentation
+- Deploy Cisco multi-tier switching with LACP port-channels and VLAN segmentation
 - Implement Zero Trust access using User-ID and Active Directory
 - Deploy an Active/Passive HA pair with session synchronization
 - Establish site-to-site IPsec VPN with eBGP route exchange
@@ -65,6 +66,7 @@ The full security policy is shown below across the complete rulebase.
 ### Segmentation Model
 - 10 distinct security zones
 - VLAN-backed segmentation across access layer
+- LACP port-channels connecting both active and passive firewalls to the core switching layer
 - Firewall enforces all inter-zone access
 
 ### Identity Model
